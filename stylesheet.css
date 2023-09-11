@@ -1,4 +1,19 @@
 body{
   background-image: url(images/bg-intro-desktop.png);
   background-color: hsl(0, 100%, 74%);
+  color: white;
+  font-size: 16px;
+}
+
+.container{
+  display: inline-flex;
+  flex-wrap: nowrap;
+}
+
+.left{
+  width: 50%;
+}
+
+.right{
+  width: 50%;
 }
