@@ -15,6 +15,7 @@ body{
   width: 50%;
   margin-left: 8rem;
   margin-right: 8rem;
+  margin-top: 16rem;
 }
 
 .right{
@@ -39,4 +40,16 @@ body{
   border: none;
   border-radius: 1rem;
   width: 100%;
+}
+
+/*text elements*/
+
+h1{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.2rem;
+}
+
+.left p{
+  font-weight: 400;
 }
