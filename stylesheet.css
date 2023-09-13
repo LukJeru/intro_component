@@ -28,22 +28,26 @@ body{
 #buttonTry{
   background-color: hsl(248, 32%, 49%);
   color: white;
-  padding: 1rem;
+  padding: 1.2rem;
   border: none;
-  border-radius: 1rem;
+  border-radius: 0.3rem;
   width: 100%;
+  position:relative;
+  top: 0.8rem;
 }
 
 #buttonClaim{
   background-color: hsl(154, 59%, 51%);
   color: white;
-  padding: 1rem;
+  padding: 0.3rem;
   border: none;
-  border-radius: 1rem;
+  border-radius: 0.3rem;
   width: 90%;
   margin: 0 auto;
   position: relative;
   top: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 #form{
@@ -60,10 +64,13 @@ body{
 #form input{
   width: 80%;
   margin: 0 auto;
+  line-height: 2.4rem;
+}
+
+#fname, #lname, #email, #password{
   border: solid 1.5px;
   border-color: hsl(0, 100%, 74%);
   border-radius: 0.3rem;
-  line-height: 2.4rem;
 }
 
 #form label{
@@ -89,7 +96,12 @@ h1{
   margin: 0 auto;
 }
 
-bold {
+p bold {
   color: hsl(0, 100%, 74%);
   font-weight: 600;
+}
+
+button bold{
+  font-weight: 600;
+  font-size: 0.8rem;
 }
