@@ -34,6 +34,7 @@ body{
   width: 100%;
   position:relative;
   top: 0.8rem;
+  box-shadow: 0px 8px 8px hsla(248, 25%, 40%, 25%);
 }
 
 #buttonClaim{
@@ -59,6 +60,7 @@ body{
   justify-content: center;
   display: flex;
   flex-direction: column;
+  box-shadow: 0px 8px 5px hsl(248, 32%, 49%, 25%);
 }
 
 #form input{
@@ -114,4 +116,5 @@ button bold{
 #buttonTry:hover{
   cursor: pointer;
   background-color: hsl(248, 32%, 60%);
+  box-shadow: 0px 8px 5px hsla(248, 32%, 55%, 10%);
 }
