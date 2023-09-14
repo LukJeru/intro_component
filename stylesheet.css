@@ -105,3 +105,13 @@ button bold{
   font-weight: 600;
   font-size: 0.8rem;
 }
+
+#buttonClaim:hover {
+  cursor: pointer;
+  background-color: hsla(154, 59%, 51%, 80%);
+}
+
+#buttonTry:hover{
+  cursor: pointer;
+  background-color: hsl(248, 32%, 60%);
+}
