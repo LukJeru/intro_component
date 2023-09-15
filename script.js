@@ -4,7 +4,9 @@ function validateForm() {
   let c = document.forms["form"]["email"].value;
   let d= document.forms["form"]["password"].value;
   if (a == "") {
-    alert("First name must be filled out");
+    document.getElementByID("fname").style.visibility = "visible";
+    document.getElementByID("fname").style.color = "red";
+    document.getElementByID("fname").innerHTML = "First Name cannont be empty.";
     return false;
   }
   if (b == "") {
