@@ -64,7 +64,7 @@ body{
 }
 
 #form input{
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
   line-height: 2.4rem;
 }
@@ -73,6 +73,7 @@ body{
   border: solid 1.5px;
   border-color: hsl(0, 100%, 74%);
   border-radius: 0.3rem;
+  padding-left: 1.5rem;
 }
 
 #form label{
@@ -122,7 +123,6 @@ button bold{
 ::placeholder {
   color: hsl(0, 100%, 74%);
   opacity: 1;
-  padding-left: 1.2rem;
 }
 
 input:focus::placeholder {
