@@ -76,9 +76,6 @@ body{
   padding-left: 1.5rem;
 }
 
-#form label{
-  display: none;
-}
 
 /*text elements*/
 
@@ -127,4 +124,19 @@ button bold{
 
 input:focus::placeholder {
   color: transparent;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border: solid 1.5px hsl(133, 100%, 74%);
+}
+
+#form p{
+  color: hsl(0, 100%, 74%);
+  position: relative;
+  left: 2rem;
+  padding: 0;
 }
