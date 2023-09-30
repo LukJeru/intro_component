@@ -6,7 +6,7 @@ function validateForm() {
   if (a.value == "" || b.value == "" || c.value == ""|| d.value == "") {
     if (a.value == "") {
       a.style.borderColor = "red"
-      document.getElementById("fname_img").style.visibility = true;
+      document.getElementById("fname_error").style.visibility = true;
     }
     if (b.value == "") {
       b.style.borderBlockColor = "red"

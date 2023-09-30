@@ -134,9 +134,28 @@ input:valid {
   border: solid 1.5px hsl(133, 100%, 74%);
 }
 
-#form p{
+
+
+#fname_error, #lname_error, #email_error, #password_error {
   color: hsl(0, 100%, 74%);
   position: relative;
-  left: 2rem;
   padding: 0;
+  bottom: 1.5rem;
+  visibility:hidden; 
+}
+
+#fname_error {
+  left: 8rem;
+}
+
+#lname_error {
+  left: 8rem;
+}
+
+#email_error {
+  left: 8.5rem;
+}
+
+#password_error {
+  left: 8rem;
 }
