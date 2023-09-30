@@ -143,21 +143,24 @@ input:valid {
   position: relative;
   padding: 0;
   bottom: 1.5rem;
-  visibility:hidden;
 }
 
 #fname_error {
   left: 8rem;
+  visibility: hidden;
 }
 
 #lname_error {
   left: 8rem;
+  visibility: hidden;
 }
 
 #email_error {
   left: 8.5rem;
+  visibility: hidden;
 }
 
 #password_error {
   left: 8rem;
+  visibility: hidden;
 }

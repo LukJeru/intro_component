@@ -5,25 +5,33 @@ function validateForm() {
   let d = document.getElementById("email");
   if (a.value == "" || b.value == "" || c.value == ""|| d.value == "") {
     if (a.value == "") {
-      a.style.borderColor = "red"
-      document.getElementById("fname_error").style.visibility = true;
+      a.style.backgroundSize = "20px 20px";
+      document.getElementById("fname_error").style.visibility = "visible";
+    } else {
+      a.style.backgroundSize = "";
+      document.getElementById("fname_error").style.visibility = "hidden";
     }
     if (b.value == "") {
-      b.style.borderBlockColor = "red"
+      b.style.backgroundSize = "20px 20px";
+      document.getElementById("lname_error").style.visibility = "visible";
+    } else {
+      b.style.backgroundSize = "";
+      document.getElementById("lname_error").style.visibility = "hidden";
     }
     if (c.value == "") {
-      c.style.borderBlockColor = "red"
+      c.style.backgroundSize = "20px 20px";
+      document.getElementById("password_error").style.visibility = "visible";
+    } else {
+      c.style.backgroundSize = "";
+      document.getElementById("password_error").style.visibility = "hidden";
     }
     if (d.value == "") {
-      d.style.borderBlockColor = "red"
+      d.style.backgroundSize = "20px 20px";
+      document.getElementById("email_error").style.visibility = "visible";
+    } else {
+      d.style.backgroundSize = "";
+      document.getElementById("email_error").style.visibility = "hidden";
     }
-    return false;
-  }
-  else {
-    a.style.borderColor = "green"
-    b.style.borderColor = "green"
-    c.style.borderColor = "green"
-    d.style.borderColor = "green"
   }
 }
 
