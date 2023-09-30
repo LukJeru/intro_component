@@ -61,6 +61,7 @@ body{
   display: flex;
   flex-direction: column;
   box-shadow: 0px 8px 5px hsl(248, 32%, 49%, 25%);
+  min-width: 20rem;
 }
 
 #form input{
@@ -163,4 +164,34 @@ input:valid {
 #password_error {
   left: 8rem;
   visibility: hidden;
+}
+
+/*media queries*/
+@media screen and (max-width: 780px) {
+  .container{
+    flex-direction: column;
+  }
+  .left{
+    margin: 0 auto;
+    text-align: center;
+    min-width: 20rem;
+  }
+  .right{
+    margin: 0 auto;
+    min-width: 20rem;
+  }
+  #form{
+    min-width: 20rem;
+  }
+  #foot_note{
+    text-align: center;
+  }
+  #buttonTry{
+    height: 5rem;
+  }
+  #buttonClaim{
+    min-width: 85%;
+    height: 4rem;
+    padding: 0;
+  }
 }
